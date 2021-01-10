@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Javascript test page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="../p5/p5.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.js"></script>
+</head>
+<body>
+    <!-- <p font-size="20">Page successfully loaded.</p> -->
+    <script type="text/javascript" src="TicTacToe.js"></script>
+    <script type="text/javascript" src="bubble.js"></script>
+    <style>
+        @media screen and (max-width: 600px) {
+            body {
+                width : device-width + 10;
+                transform: scale(0.8);
+                transform-origin: 0 0;
+            }
+            .column {
+            width: 100%;
+            }
+        }
+    </style>
+
+    <div class = "row">
+    <div class = "column" id = "main"></div>
+    <div class = "column" id = "output"></div>
+    </div>
+</body>
